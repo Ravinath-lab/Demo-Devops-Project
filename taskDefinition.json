@@ -6,33 +6,15 @@
         {
             "name": "demo-container",
             "image": "$DOCKER_IMAGE_URL",
-            "memory": "256",
-            "resourceRequirements": null,
+            "memory": 256,
             "essential": true,
             "portMappings": [
                 {
-                    "hostPort": "80",
-                    "containerPort": "80",
+                    "hostPort": 80,
+                    "containerPort": 80,
                     "protocol": "tcp"
                 }
-            ],
-            "entryPoint": [],
-            "command": [],
-            "environment": null,
-            "environmentFiles": [],
-            "secrets": null,
-            "mountPoints": null,
-            "volumesFrom": null,
-            "hostname": null,
-            "user": null,
-            "workingDirectory": null,
-            "extraHosts": null,
-            "logConfiguration": null,
-            "ulimits": null,
-            "dockerLabels": null,
-            "dependsOn": null,
-            "healthCheck": null,
-            "repositoryCredentials": null
+            ]
         }
     ],
     "volumes": [],
