@@ -18,9 +18,6 @@
         }
     ],
     "volumes": [],
-    "networkMode": null,
-    "memory": null,
-    "cpu": null,
     "placementConstraints": [],
     "family": "Demo-task-Definition",
     "taskRoleArn": "",
