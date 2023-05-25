@@ -20,6 +20,5 @@
     "volumes": [],
     "placementConstraints": [],
     "family": "Demo-task-Definition",
-    "taskRoleArn": "",
-    "tags": []
+    "taskRoleArn": ""
 }
