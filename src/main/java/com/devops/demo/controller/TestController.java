@@ -12,7 +12,7 @@ public class TestController {
 	
 	@GetMapping(path = "/welcome/{name}")
 	public ResponseEntity<String> welcomeUser(@PathVariable(name = "name")String name){
-		return ResponseEntity.ok("Hello "+name+" !");
+		return ResponseEntity.ok("what are you doing "+name+" !");
 	}
 
 }
