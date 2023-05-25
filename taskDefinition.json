@@ -1,0 +1,46 @@
+{
+    "requiresCompatibilities": [
+        "EC2"
+    ],
+    "containerDefinitions": [
+        {
+            "name": "demo-container",
+            "image": "$DOCKER_IMAGE_URL",
+            "memory": "256",
+            "resourceRequirements": null,
+            "essential": true,
+            "portMappings": [
+                {
+                    "hostPort": "80",
+                    "containerPort": "80",
+                    "protocol": "tcp"
+                }
+            ],
+            "entryPoint": [],
+            "command": [],
+            "environment": null,
+            "environmentFiles": [],
+            "secrets": null,
+            "mountPoints": null,
+            "volumesFrom": null,
+            "hostname": null,
+            "user": null,
+            "workingDirectory": null,
+            "extraHosts": null,
+            "logConfiguration": null,
+            "ulimits": null,
+            "dockerLabels": null,
+            "dependsOn": null,
+            "healthCheck": null,
+            "repositoryCredentials": null
+        }
+    ],
+    "volumes": [],
+    "networkMode": null,
+    "memory": null,
+    "cpu": null,
+    "placementConstraints": [],
+    "family": "Demo-task-Definition",
+    "taskRoleArn": "",
+    "tags": []
+}
