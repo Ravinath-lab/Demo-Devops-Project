@@ -5,7 +5,7 @@
     "containerDefinitions": [
         {
             "name": "demo-container",
-            "image": "$DOCKER_IMAGE_URL",
+            "image": $DOCKER_IMAGE_URL",
             "memory": 256,
             "essential": true,
             "portMappings": [
