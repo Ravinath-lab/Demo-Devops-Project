@@ -12,7 +12,7 @@ public class TestController {
 	
 	@GetMapping(path = "/welcome/{name}")
 	public ResponseEntity<String> welcomeUser(@PathVariable(name = "name")String name){
-		return ResponseEntity.ok("Welcome to devops session "+name+" !");
+		return ResponseEntity.ok("Welcome "+name+" !");
 	}
 
 }
